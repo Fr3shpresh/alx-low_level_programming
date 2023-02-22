@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
+ * main - main function
+ * _putchar: print the alphabets putchar
  * Return: always 0
  */
 
 int main(void)
 {
-	putchar(*);
+	_putchar('_');
 	_putchar('p');
 	_putchar('u');
 	_putchar('t');
