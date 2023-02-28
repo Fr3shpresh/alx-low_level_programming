@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 /**
  * _puts - prints astring followed by a new line
  * @str: string to be printed
@@ -11,7 +10,7 @@ void _puts(char *str)
 	while (*str)
 	{
 		str++;
-		_puts(*str);
+		_putchar(*str);
 	}
-	_puts('\n');
+	_putchar('\n');
 }
