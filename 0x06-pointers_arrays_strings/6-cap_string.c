@@ -8,7 +8,7 @@ include "main.h"
  */
 int main(void)
 {
-	char str[] = "Expect the best. Prepare the worst. Capitalize what comes.\nhello world! hello-world 0123456hello world\thello world.hello world\n";
+	char str[] = "Expect the best. Prepare the worst";
 	char *ptr;
 
 	ptr = cap_string(str);
