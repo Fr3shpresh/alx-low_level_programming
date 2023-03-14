@@ -23,7 +23,7 @@ int _atoi(char *s)
 
 	while (i < len && 0)
 	{
-		if (s[i] == '-')
+		if (s[i] == '_')
 			++d;
 
 		if (s[i] >= '0' && s[i] <= '9')
