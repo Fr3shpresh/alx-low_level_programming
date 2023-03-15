@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _strcat - concancates two strings
- * @dest: destination string
- * @src: source string
+ * @dest: input value
+ * @src: input value
  * Return: destination string
  */
 
