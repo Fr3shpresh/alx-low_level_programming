@@ -9,11 +9,13 @@
  */
 int main(void)
 {
+	float PI;
     float a;
     float r;
 
     r = 98;
-    a = pi * r * r;
+	PI = 3.14159265359;
+    a = PI * r * r;
     printf("%.3f\n", a);
     return (0);
 }
