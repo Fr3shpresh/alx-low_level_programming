@@ -50,11 +50,11 @@ int op_div(int a, int b)
 	return (a / b);
 }
 /**
-* op_mod - Returns the modulus of two numbers
+* op_mod - Returns the remainder of division of two numbers
 * @a: the first number
 * @b: the second number
 *
-* Return: Return the remainder of modulus a and b
+* Return: Return the remainder of division of a and b
 */
 int op_mod(int a, int b)
 {
